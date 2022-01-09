@@ -22,7 +22,7 @@
 ## JWT - JSON Web Token
 ### Çka është JWT ?
 > JSON Web Token (JWT) është një standard i hapur (RFC 7519) që përcakton një mënyrë kompakte dhe të pavarur për transmetimin e sigurt të informacionit midis palëve si një objekt JSON.
-###Si funksionon në programin tonë ?
+### Si funksionon në programin tonë ?
 > Për çdo përdorues që logohet duke dhënë emrin dhe password-in, në rast suksesi lëshohet një token i nënshkruar i cili përdoret për autentifikimin e shfrytëzuesit.
 
 ## Përdorimi
@@ -44,8 +44,8 @@
 >>> * event.py
 >> E më pas ekzekutimi i programit bëhet në file-in app.py.
 ### Vërtetimi i përdoruesit
->> Së pari hapet pamja login with password për përdoruesit të cilët vetëm se janë të regjistruar. Në rast se përdoruesi nuk ekziston ose fjalëkalimi nuk përputhet atëherë kthejmë përgjigjen me mesazh gabimi.
->> Nëse përdoruesi nuk ekziston atëherë duhet regjistruar te pamja regjistër. Pas regjistrimit krijojmë një token si payload ku ruhet emri i përdoruesit për të identifikuar përdoruesin e me pas enkodojmë payload-in me një string sekret dhe algoritëm të specifikuar.
->> Edhe për dekodim të token-it (gjatë kyçjes me token) përdorim të njëjtin string sekret dhe algoritmin e specifikuar, në rast se tokeni nuk është i njëjtë atëherë kthejmë përgjigjen me mesazh gabimi.
+>> - Së pari hapet pamja login with password për përdoruesit të cilët vetëm se janë të regjistruar. Në rast se përdoruesi nuk ekziston ose fjalëkalimi nuk përputhet atëherë kthejmë përgjigjen me mesazh gabimi.
+>> - Nëse përdoruesi nuk ekziston atëherë duhet regjistruar te pamja regjistër. Pas regjistrimit krijojmë një token si payload ku ruhet emri i përdoruesit për të identifikuar përdoruesin e me pas enkodojmë payload-in me një string sekret dhe algoritëm të specifikuar.
+>> - Edhe për dekodim të token-it (gjatë kyçjes me token) përdorim të njëjtin string sekret dhe algoritmin e specifikuar, në rast se tokeni nuk është i njëjtë atëherë kthejmë përgjigjen me mesazh gabimi.
 
 
