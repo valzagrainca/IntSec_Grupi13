@@ -3,10 +3,11 @@
 ## Zhvillimi i një API me disa funksione bazike, duke implementuar autentifikimin bazik ose me token
 
 * Realizimi i kësaj detyre është bërë me anë të gjuhës programuese Python andaj paraprakisht duhet ta keni të instaluar Python3
-  
+
 ### Çka është një API ?
  API qëndron për Application Program Interface. Merr mesazhet të cilat i dërgon në sistem dhe kthen përgjigjien nga sistemi. Pra, është një ndërmjetësues në mes nesh dhe sistemit.
-
+\
+&nbsp;
 
 ### GUI - Graphical User Interface në Python
 #### Çka është GUI ?
@@ -18,7 +19,8 @@
 >>> - Label –> Përdoret për të shfaqur tekst në GUI
 >>> - Canvas –> Përdoret për të vizatuar grafikë dhe skema
 >>> - Frame –> Skicon kornizën për dritaren Tkinter me madhësi fikse
-
+\
+&nbsp;
  
 ### JWT - JSON Web Token
 #### Çka është JWT ?
@@ -26,7 +28,6 @@
 #### Si funksionon në programin tonë ?
 > Për çdo përdorues që logohet duke dhënë emrin dhe password-in, në rast suksesi lëshohet një token i nënshkruar i cili përdoret për autentifikimin e shfrytëzuesit.
 > Jwt është nënshkruar me qelësin sekret publik,dhe algoritmi i përdorur është HS256.
-
 \
 &nbsp;
  
@@ -41,7 +42,8 @@
 >>> - Register (nëse përdoruesi nuk është regjistruar më herët mund të kalojë në këtë pamje)
 >>> - Login with password (nëse përdoruesi ka pasur më herët llogari të hapur atëherë mund të behet login nga ku i hapet pamja e ashtuquajtur online)
 >>> - Login with token (ofron mundësinë e qasjes me token të gjeneruar automatikisht)
-
+\
+&nbsp;
  
 ### Realizimi
 #### Si është implementuar API ?
