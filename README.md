@@ -1,5 +1,5 @@
 # Universiteti i Prishtinës - FIEK
-## Lënda: Siguria në Internet, Grupi:13
+## Lënda: Siguria në Internet, Grupi: 13
 ## Zhvillimi i një API me disa funksione bazike, duke implementuar autentifikimin bazik ose me token
 
 > * Realizimi i kësaj detyre është bërë me anë të gjuhës programuese Python andaj paraprakisht duhet ta keni të instaluar Python3
