@@ -7,7 +7,7 @@
 ### Çka është një API ?
  API qëndron për Application Program Interface. Merr mesazhet të cilat i dërgon në sistem dhe kthen përgjigjien nga sistemi. Pra, është një ndërmjetësues në mes nesh dhe sistemit.
 
-  
+\
 ### GUI - Graphical User Interface në Python
 #### Çka është GUI ?
 >> Ndërfaqja grafike e përdoruesit (GUI) është një formë e ndërfaqes që i lejon përdoruesit të ndërveprojnë me pajisjet elektronike përmes ikonave grafike si butona, meny, fusha për insertimin e të dhënave. 
@@ -19,7 +19,7 @@
 >>> - Canvas –> Përdoret për të vizatuar grafikë dhe skema
 >>> - Frame –> Skicon kornizën për dritaren Tkinter me madhësi fikse
 
-  
+\ 
 ### JWT - JSON Web Token
 #### Çka është JWT ?
 > JSON Web Token (JWT) është një standard i hapur (RFC 7519) që përcakton një mënyrë kompakte dhe të pavarur për transmetimin e sigurt të informacionit midis palëve si një objekt JSON.
@@ -27,7 +27,7 @@
 > Për çdo përdorues që logohet duke dhënë emrin dhe password-in, në rast suksesi lëshohet një token i nënshkruar i cili përdoret për autentifikimin e shfrytëzuesit.
 > Jwt është nënshkruar me qelësin sekret publik,dhe algoritmi i përdorur është HS256.
 
-  
+\ 
 ### Përdorimi
 #### Parakushtet
 >> Parakushtet për funksionimin e kësaj detyre:
@@ -40,7 +40,7 @@
 >>> - Login with password (nëse përdoruesi ka pasur më herët llogari të hapur atëherë mund të behet login nga ku i hapet pamja e ashtuquajtur online)
 >>> - Login with token (ofron mundësinë e qasjes me token të gjeneruar automatikisht)
 
-  
+\ 
 ### Realizimi
 #### Si është implementuar API ?
 >> Modulet e pamjes dhe eventeve janë të ndarë në dy files të veçantë si:
