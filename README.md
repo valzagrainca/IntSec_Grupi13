@@ -23,6 +23,7 @@
 > JSON Web Token (JWT) është një standard i hapur (RFC 7519) që përcakton një mënyrë kompakte dhe të pavarur për transmetimin e sigurt të informacionit midis palëve si një objekt JSON.
 #### Si funksionon në programin tonë ?
 > Për çdo përdorues që logohet duke dhënë emrin dhe password-in, në rast suksesi lëshohet një token i nënshkruar i cili përdoret për autentifikimin e shfrytëzuesit.
+> Jwt është nënshkruar me qelësin sekret publik,dhe algoritmi i përdorur është HS256.
 
 ### Përdorimi
 #### Parakushtet
