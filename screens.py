@@ -35,11 +35,6 @@ def loginP(root, canvas, menu):
             ))
     root.bind('<Return>', lambda event=None: LoginBTN.invoke())
 
-    # define placeholder
-
-    Username.insert(0, 'Username')
-    Password.insert(0, 'Password')
-
     # UI
 
     canvas.create_window(345, 180, window=usernameLabel)
@@ -78,13 +73,9 @@ def regjisterP(root, canvas, menu):
             menu,
             ))
     root.bind('<Return>', lambda event=None: RegisterBTN.invoke())
-
-    # define placeholder
-
-    Username.insert(0, 'Username')
-    Password.insert(0, 'Password')
-
+    
     # UI
+    
     canvas.create_window(345, 180, window=usernameLabel)
     canvas.create_window(345, 250, window=passwordLabel)
     canvas.create_window(515, 180, window=Username)
